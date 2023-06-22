@@ -1,0 +1,45 @@
+:root {
+    /* BYU Color Palette */
+    --navy-color: #002E5D;
+    --white-color: #FFFFFF;
+    --royal-color: #003DA5;
+    --light-blue-color: #BDD6E6;
+    --blue-color: #0072CE;
+    --slate-gray-color: #7C878E;
+    --light-gray-color: #C7C9C7;
+    --sand-color: #A39382;
+    --light-sand-color: #D1CCBD;
+    --blue-gray-color: #6E7CA0;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /* BYU Font */
+    font-family: 'Public Sans', 'Noto Sans', 'Open Sans', Helvetica, Arial, sans-serif;
+    color: var(--navy-color);
+}
+
+h1 {
+    /* BYU Font */
+    font-family: 'HCo Ringside Narrow SSm', 'Open Sans', Helvetica, Arial, sans-serif;
+    color: var(--navy-color);
+}
+
+.footer-text {
+    font-size:10px;
+}
