@@ -43,3 +43,9 @@ h1 {
 .footer-text {
     font-size:10px;
 }
+
+/*Navbar Navy*/
+.navbar-1 {
+    background-color: var(--navy-color);
+    color: var(--white-color);
+}
