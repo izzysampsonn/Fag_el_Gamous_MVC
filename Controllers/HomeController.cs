@@ -38,6 +38,11 @@ namespace Fag_el_Gamous_MVC.Controllers
             return View();
         }
 
+        public IActionResult TextEntry()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
